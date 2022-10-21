@@ -1,0 +1,158 @@
+@import url("https://fonts.google.com/specimen/Big+Shoulders+Display");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.tvView {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 85%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.container>div {
+    align-items: center;
+    width: 30%;
+    height: 70vh;
+    padding: 30px;
+}
+
+.sedan {
+    background-color: #ff9933;
+    color: white;
+    font-size: 15px;
+    padding: 20px;
+    border-radius: 8px 0 0 8px;
+}
+
+.suvs {
+    background-color: #006666;
+    color: white;
+    font-size: 15px;
+    padding: 20px;
+}
+
+.luxury {
+    background-color: #003333;
+    color: white;
+    font-size: 15px;
+    padding: 20px;
+    border-radius: 0 8px 8px 0;
+}
+
+.txtsed {
+    color: #ff9933;
+    font-size: 15px;
+}
+
+.txtlux {
+    color: #003333;
+    font-size: 15px;
+}
+
+.txtsuv {
+    color: #006666;
+    font-size: 15px;
+}
+
+#h2 {
+    padding: 30px 10px;
+    font-size: 25px;
+    color: white;
+    font-weight: 700;
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+.txt {
+    padding: 30px 10px;
+    font-size: 15px;
+    color: white;
+    font-family: 'Lexend Deca', sans-serif;
+    margin-bottom: 10px;
+    line-height: 25px;
+    /* text-indent: 10px; */
+}
+
+#btn {
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 30px;
+    transition: .4s;
+    width: 60%;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+#btn:hover {
+    background-color: transparent;
+    border: 2px solid white;
+}
+
+.txtsed:hover {
+    color: white;
+}
+
+.txtsuv:hover {
+    color: white;
+}
+
+.txtlux:hover {
+    color: white;
+}
+
+.btn_link {
+    color: black;
+    text-align: center;
+}
+
+.btn_link {
+    text-decoration: none;
+}
+
+@media (max-width: 375px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
+    .container>div {
+        align-items: center;
+        width: 90%;
+        height: 80vh;
+    }
+    .sedan {
+        background-color: #ff9933;
+        color: white;
+        font-size: 15px;
+        padding: 20px;
+        border-radius: 8px 8px 0 0;
+    }
+    .suvs {
+        background-color: #006666;
+        color: white;
+        font-size: 15px;
+        padding: 20px;
+    }
+    .luxury {
+        background-color: #003333;
+        color: white;
+        font-size: 15px;
+        padding: 20px;
+        border-radius: 0 0 8px 8px;
+    }
+}
