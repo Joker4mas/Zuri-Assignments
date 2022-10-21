@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Registration Page</title>
+</head>
+
+<body>
+    <div id="heading">
+        <h1 class="h1">REGISTRATION PAGE</h1>
+        <p class="pclass">Kindly fill in the form!</p>
+    </div>
+    <form action="succes.html" id="regform">
+        <div id="tablex">
+            <table cellspacing="20" cellpadding="5px">
+                <tr id="fname">
+                    <td>
+                        <label><strong>First Name</strong></label>
+                    </td>
+                    <td>
+                        <input type="text" placeholder="First Name" required />
+                        <i class="fa-solid fa-circle-check"></i>
+                        <i class="fa-sharp fa-solid fa-circle-exclamation"></i>
+                    </td>
+                </tr>
+                <tr class="lname">
+                    <td>
+                        <label><strong>Last Name</strong></label>
+                    </td>
+                    <td>
+                        <input type="text" placeholder="Last Name" required />
+                        <i class="fa-solid fa-circle-check"></i>
+                        <i class="fa-sharp fa-solid fa-circle-exclamation"></i>
+                    </td>
+                </tr>
+
+                <tr class="phoneNumber">
+                    <td>
+                        <label><strong>Phone Number</strong></label>
+                    </td>
+                    <td>
+                        <input type="number" placeholder="0803-123-1234" pattern="[0-9]{4}-[0-9]{3}-[0-9]{4}" required />
+                        <i class="fa-solid fa-circle-check"></i>
+                        <i class="fa-sharp fa-solid fa-circle-exclamation"></i>
+                    </td>
+                </tr>
+                <tr class="mail">
+                    <td>
+                        <label>
+                <strong> Email Add</strong>
+              </label>
+                    </td>
+                    <td>
+                        <input type="email" placeholder="johndoe@gmail.com" required />
+                        <i class="fa-solid fa-circle-check"></i>
+                        <i class="fa-sharp fa-solid fa-circle-exclamation"></i>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>
+                <strong>Date of Birth</strong>
+              </label>
+                    </td>
+                    <td>
+                        <input type="date" required />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>
+                <strong> Pick a Fav color</strong>
+              </label>
+                    </td>
+                    <td id="colorpicker">
+                        <input type="color" />
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+
+        <p class="pclass">
+            <button id="btn">Sign Up</button><br /> By Clicking the sign up button, you agree to our
+            <a href="#"> Terms and Condition</a> and <a href="">Privacy Policy</a>
+        </p>
+    </form>
+
+    <p class="pclass">
+        Already have an Account <a href="login.html" id="colox">Log-in</a>
+    </p>
+</body>
+
+</html>

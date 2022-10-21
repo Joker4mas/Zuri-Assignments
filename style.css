@@ -1,0 +1,112 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(colx.jpg);
+}
+
+#heading,
+.pclass {
+    text-align: center;
+    color: whitesmoke;
+}
+
+input {
+    padding: 5px;
+}
+
+#regform {
+    border: 1px solid #d1cdee;
+    border-radius: 5px;
+    padding: 20px;
+    width: 50%;
+    background-color: #4fab61;
+    margin: 0 auto;
+}
+
+#log_btn {
+    text-align: center;
+    font-weight: 5px;
+    margin-left: 10rem;
+    padding: 5px;
+}
+
+#log_p {
+    margin-left: 1em;
+}
+
+#colox {
+    color: gold;
+}
+
+#link_a {
+    text-decoration: none;
+}
+
+#heading,
+.pclass {
+    text-align: center;
+    color: whitesmoke;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#regform {
+    border: 1px solid #d1cdee;
+    border-radius: 5px;
+    padding: 20px;
+    width: 50%;
+    background-color: #4fab61;
+    margin: 0 auto;
+}
+
+#log_p {
+    margin-left: 1em;
+}
+
+#colox {
+    color: gold;
+}
+
+button {
+    width: 30%;
+    padding: 10px;
+    border-radius: 15px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    border: none;
+}
+
+button:hover {
+    background-color: transparent;
+    border: 2px solid gray;
+}
+
+#regform_log {
+    border: 1px solid #d1cdee;
+    border-radius: 5px;
+    padding: 20px;
+    width: 25%;
+    background-color: #4fab61;
+    margin: 40px auto;
+}
+
+#regform_log table {
+    align-items: center;
+}
+
+#regform_log button {
+    margin-right: 2px;
+}
+
+#regform_suc {
+    border: 1px solid #d1cdee;
+    border-radius: 5px;
+    padding: 20px;
+    width: 25%;
+    background-color: #4fab61;
+    margin: 40px auto;
+}
